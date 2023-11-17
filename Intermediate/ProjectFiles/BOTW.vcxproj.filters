@@ -1,0 +1,1627 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\BOTW.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\BOTW.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\BOTWEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.svnignore" />
+    <None Include="..\..\.vsconfig" />
+    <None Include="..\..\BOTWHeightMap.png" />
+    <None Include="..\..\BOTWHeightMap_modi.png" />
+    <None Include="..\..\RealisticForestPack.png" />
+    <None Include="..\..\vs-chromium-project.txt" />
+    <None Include="..\..\미리보기이미지.png" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGameplayTags.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultLandscaping.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Platforms">
+      <UniqueIdentifier>{ED49A36C-4FD5-37E5-A2AC-E11BEF4F21CF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platforms\HoloLens">
+      <UniqueIdentifier>{28125F47-4973-377C-9D77-EBC3C72EC856}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platforms\HoloLens\Config">
+      <UniqueIdentifier>{D3BF39CB-FA64-39E2-A327-B5021BA69773}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Platforms\HoloLens\Config\HoloLensEngine.ini">
+      <Filter>Platforms\HoloLens\Config</Filter>
+    </None>
+    <Filter Include="Plugins">
+      <UniqueIdentifier>{BB38096A-B391-30DC-A0D4-4F3EA6B44507}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\FMODStudio">
+      <UniqueIdentifier>{A8F43CFA-4E86-3422-A434-2C9A5F36B768}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\FMODStudio\Source">
+      <UniqueIdentifier>{0C543700-B202-3EA1-B414-27C225AAE0D7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\FMODStudio\Source\FMODStudioEditor">
+      <UniqueIdentifier>{2ADDA74F-F439-3E8E-BA9F-EAAF8EE817BF}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\FMODStudio\Source\FMODStudioEditor\FMODStudioEditor.Build.cs">
+      <Filter>Plugins\FMODStudio\Source\FMODStudioEditor</Filter>
+    </None>
+    <Filter Include="Plugins\FMODStudio\Source\FMODStudioEditor\Classes">
+      <UniqueIdentifier>{BE8AE458-4C17-3714-A68E-5A4521F1480B}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\FMODStudio\Source\FMODStudioEditor\Classes\FMODAmbientSoundActorFactory.h">
+      <Filter>Plugins\FMODStudio\Source\FMODStudioEditor\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\FMODStudio\Source\FMODStudioEditor\Classes\FMODAssetBuilder.h">
+      <Filter>Plugins\FMODStudio\Source\FMODStudioEditor\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\FMODStudio\Source\FMODStudioEditor\Classes\FMODGenerateAssetsCommandlet.h">
+      <Filter>Plugins\FMODStudio\Source\FMODStudioEditor\Classes</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\FMODStudio\Source\FMODStudioEditor\Private">
+      <UniqueIdentifier>{FE59AAFB-6BE9-3876-9377-8B013F5D0260}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\FMODStudio\Source\FMODStudioEditor\Private\AssetTypeActions_FMODEvent.cpp">
+      <Filter>Plugins\FMODStudio\Source\FMODStudioEditor\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\FMODStudio\Source\FMODStudioEditor\Private\AssetTypeActions_FMODEvent.h">
+      <Filter>Plugins\FMODStudio\Source\FMODStudioEditor\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\FMODStudio\Source\FMODStudioEditor\Private\FMODAmbientSoundActorFactory.cpp">
+      <Filter>Plugins\FMODStudio\Source\FMODStudioEditor\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\FMODStudio\Source\FMODStudioEditor\Private\FMODAssetBroker.h">
+      <Filter>Plugins\FMODStudio\Source\FMODStudioEditor\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\FMODStudio\Source\FMODStudioEditor\Private\FMODAssetBuilder.cpp">
+      <Filter>Plugins\FMODStudio\Source\FMODStudioEditor\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\FMODStudio\Source\FMODStudioEditor\Private\FMODAudioComponentDetails.cpp">
+      <Filter>Plugins\FMODStudio\Source\FMODStudioEditor\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\FMODStudio\Source\FMODStudioEditor\Private\FMODAudioComponentDetails.h">
+      <Filter>Plugins\FMODStudio\Source\FMODStudioEditor\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\FMODStudio\Source\FMODStudioEditor\Private\FMODAudioComponentVisualizer.cpp">
+      <Filter>Plugins\FMODStudio\Source\FMODStudioEditor\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\FMODStudio\Source\FMODStudioEditor\Private\FMODAudioComponentVisualizer.h">
+      <Filter>Plugins\FMODStudio\Source\FMODStudioEditor\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\FMODStudio\Source\FMODStudioEditor\Private\FMODBankUpdateNotifier.cpp">
+      <Filter>Plugins\FMODStudio\Source\FMODStudioEditor\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\FMODStudio\Source\FMODStudioEditor\Private\FMODBankUpdateNotifier.h">
+      <Filter>Plugins\FMODStudio\Source\FMODStudioEditor\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\FMODStudio\Source\FMODStudioEditor\Private\FMODEventEditor.cpp">
+      <Filter>Plugins\FMODStudio\Source\FMODStudioEditor\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\FMODStudio\Source\FMODStudioEditor\Private\FMODEventEditor.h">
+      <Filter>Plugins\FMODStudio\Source\FMODStudioEditor\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\FMODStudio\Source\FMODStudioEditor\Private\FMODGenerateAssetsCommandlet.cpp">
+      <Filter>Plugins\FMODStudio\Source\FMODStudioEditor\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\FMODStudio\Source\FMODStudioEditor\Private\FMODSettingsCustomization.cpp">
+      <Filter>Plugins\FMODStudio\Source\FMODStudioEditor\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\FMODStudio\Source\FMODStudioEditor\Private\FMODSettingsCustomization.h">
+      <Filter>Plugins\FMODStudio\Source\FMODStudioEditor\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\FMODStudio\Source\FMODStudioEditor\Private\FMODStudioEditorModule.cpp">
+      <Filter>Plugins\FMODStudio\Source\FMODStudioEditor\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\FMODStudio\Source\FMODStudioEditor\Private\FMODStudioEditorPrivatePCH.h">
+      <Filter>Plugins\FMODStudio\Source\FMODStudioEditor\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\FMODStudio\Source\FMODStudioEditor\Private\FMODStudioStyle.cpp">
+      <Filter>Plugins\FMODStudio\Source\FMODStudioEditor\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\FMODStudio\Source\FMODStudioEditor\Private\FMODStudioStyle.h">
+      <Filter>Plugins\FMODStudio\Source\FMODStudioEditor\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\FMODStudio\Source\FMODStudioEditor\Private\SFMODEventEditorPanel.cpp">
+      <Filter>Plugins\FMODStudio\Source\FMODStudioEditor\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\FMODStudio\Source\FMODStudioEditor\Private\SFMODEventEditorPanel.h">
+      <Filter>Plugins\FMODStudio\Source\FMODStudioEditor\Private</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\FMODStudio\Source\FMODStudioEditor\Private\Sequencer">
+      <UniqueIdentifier>{4FF7A6FC-92B7-33D7-914C-7336BB56E962}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\FMODStudio\Source\FMODStudioEditor\Private\Sequencer\FMODChannelEditors.cpp">
+      <Filter>Plugins\FMODStudio\Source\FMODStudioEditor\Private\Sequencer</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\FMODStudio\Source\FMODStudioEditor\Private\Sequencer\FMODChannelEditors.h">
+      <Filter>Plugins\FMODStudio\Source\FMODStudioEditor\Private\Sequencer</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\FMODStudio\Source\FMODStudioEditor\Private\Sequencer\FMODEventControlTrackEditor.cpp">
+      <Filter>Plugins\FMODStudio\Source\FMODStudioEditor\Private\Sequencer</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\FMODStudio\Source\FMODStudioEditor\Private\Sequencer\FMODEventControlTrackEditor.h">
+      <Filter>Plugins\FMODStudio\Source\FMODStudioEditor\Private\Sequencer</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\FMODStudio\Source\FMODStudioEditor\Private\Sequencer\FMODEventParameterTrackEditor.cpp">
+      <Filter>Plugins\FMODStudio\Source\FMODStudioEditor\Private\Sequencer</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\FMODStudio\Source\FMODStudioEditor\Private\Sequencer\FMODEventParameterTrackEditor.h">
+      <Filter>Plugins\FMODStudio\Source\FMODStudioEditor\Private\Sequencer</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\FMODStudio\Source\FMODStudioEditor\Private\Sequencer\FMODParameterSection.cpp">
+      <Filter>Plugins\FMODStudio\Source\FMODStudioEditor\Private\Sequencer</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\FMODStudio\Source\FMODStudioEditor\Private\Sequencer\FMODParameterSection.h">
+      <Filter>Plugins\FMODStudio\Source\FMODStudioEditor\Private\Sequencer</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\FMODStudio\Source\FMODStudioEditor\Public">
+      <UniqueIdentifier>{E652E6DB-1C1D-3F53-891B-0C70756F68AD}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\FMODStudio\Source\FMODStudioEditor\Public\FMODStudioEditorModule.h">
+      <Filter>Plugins\FMODStudio\Source\FMODStudioEditor\Public</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\FMODStudio\FMODStudio.uplugin">
+      <Filter>Plugins\FMODStudio</Filter>
+    </None>
+    <Filter Include="Plugins\FMODStudio\Resources">
+      <UniqueIdentifier>{0E9C1FB9-6F9C-37D3-AB61-1AF4707848FC}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\FMODStudio\Resources\Icon128.png">
+      <Filter>Plugins\FMODStudio\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\GASAttachEditor">
+      <UniqueIdentifier>{92ED9B0E-AE6B-3C5D-9873-CBA387EE024B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\GASAttachEditor\GASAttachEditor.uplugin">
+      <Filter>Plugins\GASAttachEditor</Filter>
+    </None>
+    <Filter Include="Plugins\GASAttachEditor\Resources">
+      <UniqueIdentifier>{E546F474-06F2-3E1F-A235-43AD87A9C55C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\GASAttachEditor\Resources\ButtonIcon_40x.png">
+      <Filter>Plugins\GASAttachEditor\Resources</Filter>
+    </None>
+    <None Include="..\..\Plugins\GASAttachEditor\Resources\Icon128.png">
+      <Filter>Plugins\GASAttachEditor\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\ImposterGenerator">
+      <UniqueIdentifier>{B7C3B25D-73C6-3C65-9E9C-A8E6318E5958}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\ImposterGenerator\ImposterGenerator.uplugin">
+      <Filter>Plugins\ImposterGenerator</Filter>
+    </None>
+    <Filter Include="Plugins\ImposterGenerator\Shaders">
+      <UniqueIdentifier>{50EFA684-ABBE-37AC-8941-ADE1FA701D2C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\ImposterGenerator\Shaders\Private">
+      <UniqueIdentifier>{A825D287-5B54-34DE-85E3-E0CFA4A1D312}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\ImposterGenerator\Shaders\Private\CalculateValidArea.usf">
+      <Filter>Plugins\ImposterGenerator\Shaders\Private</Filter>
+    </None>
+    <None Include="..\..\Plugins\ImposterGenerator\Shaders\Private\GenerateNormalizedMipchain.usf">
+      <Filter>Plugins\ImposterGenerator\Shaders\Private</Filter>
+    </None>
+    <None Include="..\..\Plugins\ImposterGenerator\Shaders\Private\ResolveGBuffer.usf">
+      <Filter>Plugins\ImposterGenerator\Shaders\Private</Filter>
+    </None>
+    <None Include="..\..\Plugins\ImposterGenerator\Shaders\Private\SimpleCopyTexture.usf">
+      <Filter>Plugins\ImposterGenerator\Shaders\Private</Filter>
+    </None>
+    <None Include="..\..\Plugins\ImposterGenerator\Shaders\Private\TransitionInfo.usf">
+      <Filter>Plugins\ImposterGenerator\Shaders\Private</Filter>
+    </None>
+    <Filter Include="Plugins\NiagaraUIRenderer">
+      <UniqueIdentifier>{A1A2AD6A-5ADE-338D-A830-1DD0E58FB282}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\NiagaraUIRenderer\NiagaraUIRenderer.uplugin">
+      <Filter>Plugins\NiagaraUIRenderer</Filter>
+    </None>
+    <Filter Include="Plugins\NiagaraUIRenderer\Resources">
+      <UniqueIdentifier>{899E118A-CB2F-3118-BD4D-5C21F96A232A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\NiagaraUIRenderer\Resources\Icon128.png">
+      <Filter>Plugins\NiagaraUIRenderer\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\VRM4U">
+      <UniqueIdentifier>{EABCFF0E-FF4A-3E1A-90EC-384460B96F0C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\VRM4U\VRM4U.uplugin">
+      <Filter>Plugins\VRM4U</Filter>
+    </None>
+    <Filter Include="Plugins\VRM4U\Resources">
+      <UniqueIdentifier>{ED657A2A-48DA-30D6-9021-18FCABC01C9A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\VRM4U\Resources\Icon128.png">
+      <Filter>Plugins\VRM4U\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\FMODStudio\Source\FMODStudio">
+      <UniqueIdentifier>{828D3BA0-12DE-37E6-858B-C3CF31A307B0}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\FMODStudio\Source\FMODStudio\FMODStudio.Build.cs">
+      <Filter>Plugins\FMODStudio\Source\FMODStudio</Filter>
+    </None>
+    <None Include="..\..\Plugins\FMODStudio\Source\FMODStudio\FMODStudioL_APL.xml">
+      <Filter>Plugins\FMODStudio\Source\FMODStudio</Filter>
+    </None>
+    <None Include="..\..\Plugins\FMODStudio\Source\FMODStudio\FMODStudio_APL.xml">
+      <Filter>Plugins\FMODStudio\Source\FMODStudio</Filter>
+    </None>
+    <Filter Include="Plugins\FMODStudio\Source\FMODStudio\Classes">
+      <UniqueIdentifier>{2785A1A1-46FC-3906-81CC-2ADA128DE887}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\FMODStudio\Source\FMODStudio\Classes\FMODAmbientSound.h">
+      <Filter>Plugins\FMODStudio\Source\FMODStudio\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\FMODStudio\Source\FMODStudio\Classes\FMODAnimNotifyPlay.h">
+      <Filter>Plugins\FMODStudio\Source\FMODStudio\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\FMODStudio\Source\FMODStudio\Classes\FMODAsset.h">
+      <Filter>Plugins\FMODStudio\Source\FMODStudio\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\FMODStudio\Source\FMODStudio\Classes\FMODAudioComponent.h">
+      <Filter>Plugins\FMODStudio\Source\FMODStudio\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\FMODStudio\Source\FMODStudio\Classes\FMODBank.h">
+      <Filter>Plugins\FMODStudio\Source\FMODStudio\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\FMODStudio\Source\FMODStudio\Classes\FMODBlueprintStatics.h">
+      <Filter>Plugins\FMODStudio\Source\FMODStudio\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\FMODStudio\Source\FMODStudio\Classes\FMODBus.h">
+      <Filter>Plugins\FMODStudio\Source\FMODStudio\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\FMODStudio\Source\FMODStudio\Classes\FMODEvent.h">
+      <Filter>Plugins\FMODStudio\Source\FMODStudio\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\FMODStudio\Source\FMODStudio\Classes\FMODPort.h">
+      <Filter>Plugins\FMODStudio\Source\FMODStudio\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\FMODStudio\Source\FMODStudio\Classes\FMODSettings.h">
+      <Filter>Plugins\FMODStudio\Source\FMODStudio\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\FMODStudio\Source\FMODStudio\Classes\FMODSnapshot.h">
+      <Filter>Plugins\FMODStudio\Source\FMODStudio\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\FMODStudio\Source\FMODStudio\Classes\FMODSnapshotReverb.h">
+      <Filter>Plugins\FMODStudio\Source\FMODStudio\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\FMODStudio\Source\FMODStudio\Classes\FMODVCA.h">
+      <Filter>Plugins\FMODStudio\Source\FMODStudio\Classes</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\FMODStudio\Source\FMODStudio\Private">
+      <UniqueIdentifier>{71EA7971-EDC7-3C74-AE77-CAC804AA8279}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\FMODStudio\Source\FMODStudio\Private\FMODAmbientSound.cpp">
+      <Filter>Plugins\FMODStudio\Source\FMODStudio\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\FMODStudio\Source\FMODStudio\Private\FMODAnimNotifyPlay.cpp">
+      <Filter>Plugins\FMODStudio\Source\FMODStudio\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\FMODStudio\Source\FMODStudio\Private\FMODAsset.cpp">
+      <Filter>Plugins\FMODStudio\Source\FMODStudio\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\FMODStudio\Source\FMODStudio\Private\FMODAssetLookup.cpp">
+      <Filter>Plugins\FMODStudio\Source\FMODStudio\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\FMODStudio\Source\FMODStudio\Private\FMODAssetLookup.h">
+      <Filter>Plugins\FMODStudio\Source\FMODStudio\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\FMODStudio\Source\FMODStudio\Private\FMODAssetTable.cpp">
+      <Filter>Plugins\FMODStudio\Source\FMODStudio\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\FMODStudio\Source\FMODStudio\Private\FMODAssetTable.h">
+      <Filter>Plugins\FMODStudio\Source\FMODStudio\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\FMODStudio\Source\FMODStudio\Private\FMODAudioComponent.cpp">
+      <Filter>Plugins\FMODStudio\Source\FMODStudio\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\FMODStudio\Source\FMODStudio\Private\FMODBank.cpp">
+      <Filter>Plugins\FMODStudio\Source\FMODStudio\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\FMODStudio\Source\FMODStudio\Private\FMODBankLookup.cpp">
+      <Filter>Plugins\FMODStudio\Source\FMODStudio\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\FMODStudio\Source\FMODStudio\Private\FMODBankLookup.h">
+      <Filter>Plugins\FMODStudio\Source\FMODStudio\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\FMODStudio\Source\FMODStudio\Private\FMODBlueprintStatics.cpp">
+      <Filter>Plugins\FMODStudio\Source\FMODStudio\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\FMODStudio\Source\FMODStudio\Private\FMODBus.cpp">
+      <Filter>Plugins\FMODStudio\Source\FMODStudio\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\FMODStudio\Source\FMODStudio\Private\FMODEvent.cpp">
+      <Filter>Plugins\FMODStudio\Source\FMODStudio\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\FMODStudio\Source\FMODStudio\Private\FMODFileCallbacks.cpp">
+      <Filter>Plugins\FMODStudio\Source\FMODStudio\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\FMODStudio\Source\FMODStudio\Private\FMODFileCallbacks.h">
+      <Filter>Plugins\FMODStudio\Source\FMODStudio\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\FMODStudio\Source\FMODStudio\Private\FMODListener.cpp">
+      <Filter>Plugins\FMODStudio\Source\FMODStudio\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\FMODStudio\Source\FMODStudio\Private\FMODListener.h">
+      <Filter>Plugins\FMODStudio\Source\FMODStudio\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\FMODStudio\Source\FMODStudio\Private\FMODPlatform.h">
+      <Filter>Plugins\FMODStudio\Source\FMODStudio\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\FMODStudio\Source\FMODStudio\Private\FMODPort.cpp">
+      <Filter>Plugins\FMODStudio\Source\FMODStudio\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\FMODStudio\Source\FMODStudio\Private\FMODSettings.cpp">
+      <Filter>Plugins\FMODStudio\Source\FMODStudio\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\FMODStudio\Source\FMODStudio\Private\FMODSnapshot.cpp">
+      <Filter>Plugins\FMODStudio\Source\FMODStudio\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\FMODStudio\Source\FMODStudio\Private\FMODSnapshotReverb.cpp">
+      <Filter>Plugins\FMODStudio\Source\FMODStudio\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\FMODStudio\Source\FMODStudio\Private\FMODStudioModule.cpp">
+      <Filter>Plugins\FMODStudio\Source\FMODStudio\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\FMODStudio\Source\FMODStudio\Private\FMODStudioPrivatePCH.h">
+      <Filter>Plugins\FMODStudio\Source\FMODStudio\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\FMODStudio\Source\FMODStudio\Private\FMODVCA.cpp">
+      <Filter>Plugins\FMODStudio\Source\FMODStudio\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\FMODStudio\Source\FMODStudio\Private\Sequencer">
+      <UniqueIdentifier>{FF00DA42-A362-368D-98B6-174DFDC1BBB2}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\FMODStudio\Source\FMODStudio\Private\Sequencer\FMODEventControlSection.cpp">
+      <Filter>Plugins\FMODStudio\Source\FMODStudio\Private\Sequencer</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\FMODStudio\Source\FMODStudio\Private\Sequencer\FMODEventControlSection.h">
+      <Filter>Plugins\FMODStudio\Source\FMODStudio\Private\Sequencer</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\FMODStudio\Source\FMODStudio\Private\Sequencer\FMODEventControlSectionTemplate.cpp">
+      <Filter>Plugins\FMODStudio\Source\FMODStudio\Private\Sequencer</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\FMODStudio\Source\FMODStudio\Private\Sequencer\FMODEventControlSectionTemplate.h">
+      <Filter>Plugins\FMODStudio\Source\FMODStudio\Private\Sequencer</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\FMODStudio\Source\FMODStudio\Private\Sequencer\FMODEventControlTrack.cpp">
+      <Filter>Plugins\FMODStudio\Source\FMODStudio\Private\Sequencer</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\FMODStudio\Source\FMODStudio\Private\Sequencer\FMODEventControlTrack.h">
+      <Filter>Plugins\FMODStudio\Source\FMODStudio\Private\Sequencer</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\FMODStudio\Source\FMODStudio\Private\Sequencer\FMODEventParameterSectionTemplate.cpp">
+      <Filter>Plugins\FMODStudio\Source\FMODStudio\Private\Sequencer</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\FMODStudio\Source\FMODStudio\Private\Sequencer\FMODEventParameterSectionTemplate.h">
+      <Filter>Plugins\FMODStudio\Source\FMODStudio\Private\Sequencer</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\FMODStudio\Source\FMODStudio\Private\Sequencer\FMODEventParameterTrack.cpp">
+      <Filter>Plugins\FMODStudio\Source\FMODStudio\Private\Sequencer</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\FMODStudio\Source\FMODStudio\Private\Sequencer\FMODEventParameterTrack.h">
+      <Filter>Plugins\FMODStudio\Source\FMODStudio\Private\Sequencer</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\FMODStudio\Source\FMODStudio\Public">
+      <UniqueIdentifier>{26A9D9EA-113C-3562-9021-27426BD9C07E}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\FMODStudio\Source\FMODStudio\Public\FMODStudioModule.h">
+      <Filter>Plugins\FMODStudio\Source\FMODStudio\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\FMODStudio\Source\FMODStudio\Public\FMODUtils.h">
+      <Filter>Plugins\FMODStudio\Source\FMODStudio\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\FMODStudio\Source\FMODStudio\Public\FMOD">
+      <UniqueIdentifier>{68D64215-11B8-37E2-B352-47436FC225AA}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\FMODStudio\Source\FMODStudio\Public\FMOD\fmod.h">
+      <Filter>Plugins\FMODStudio\Source\FMODStudio\Public\FMOD</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\FMODStudio\Source\FMODStudio\Public\FMOD\fmod.hpp">
+      <Filter>Plugins\FMODStudio\Source\FMODStudio\Public\FMOD</Filter>
+    </None>
+    <ClInclude Include="..\..\Plugins\FMODStudio\Source\FMODStudio\Public\FMOD\fmod_android.h">
+      <Filter>Plugins\FMODStudio\Source\FMODStudio\Public\FMOD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\FMODStudio\Source\FMODStudio\Public\FMOD\fmod_codec.h">
+      <Filter>Plugins\FMODStudio\Source\FMODStudio\Public\FMOD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\FMODStudio\Source\FMODStudio\Public\FMOD\fmod_common.h">
+      <Filter>Plugins\FMODStudio\Source\FMODStudio\Public\FMOD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\FMODStudio\Source\FMODStudio\Public\FMOD\fmod_dsp.h">
+      <Filter>Plugins\FMODStudio\Source\FMODStudio\Public\FMOD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\FMODStudio\Source\FMODStudio\Public\FMOD\fmod_dsp_effects.h">
+      <Filter>Plugins\FMODStudio\Source\FMODStudio\Public\FMOD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\FMODStudio\Source\FMODStudio\Public\FMOD\fmod_errors.h">
+      <Filter>Plugins\FMODStudio\Source\FMODStudio\Public\FMOD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\FMODStudio\Source\FMODStudio\Public\FMOD\fmod_output.h">
+      <Filter>Plugins\FMODStudio\Source\FMODStudio\Public\FMOD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\FMODStudio\Source\FMODStudio\Public\FMOD\fmod_studio.h">
+      <Filter>Plugins\FMODStudio\Source\FMODStudio\Public\FMOD</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\FMODStudio\Source\FMODStudio\Public\FMOD\fmod_studio.hpp">
+      <Filter>Plugins\FMODStudio\Source\FMODStudio\Public\FMOD</Filter>
+    </None>
+    <ClInclude Include="..\..\Plugins\FMODStudio\Source\FMODStudio\Public\FMOD\fmod_studio_common.h">
+      <Filter>Plugins\FMODStudio\Source\FMODStudio\Public\FMOD</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\GASAttachEditor\Source">
+      <UniqueIdentifier>{6A277E80-174C-3884-974F-482F7F2B8102}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\GASAttachEditor\Source\GASAttachEditor">
+      <UniqueIdentifier>{C09DD8E3-3152-38EA-9DC6-0EBAADE902C5}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\GASAttachEditor\Source\GASAttachEditor\GASAttachEditor.Build.cs">
+      <Filter>Plugins\GASAttachEditor\Source\GASAttachEditor</Filter>
+    </None>
+    <Filter Include="Plugins\GASAttachEditor\Source\GASAttachEditor\Private">
+      <UniqueIdentifier>{B8D3D660-9303-3B15-BFE3-4F79B85D27A5}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\GASAttachEditor\Source\GASAttachEditor\Private\GASAttachEditor.cpp">
+      <Filter>Plugins\GASAttachEditor\Source\GASAttachEditor\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GASAttachEditor\Source\GASAttachEditor\Private\GASAttachEditorCommands.cpp">
+      <Filter>Plugins\GASAttachEditor\Source\GASAttachEditor\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GASAttachEditor\Source\GASAttachEditor\Private\GASAttachEditorStyle.cpp">
+      <Filter>Plugins\GASAttachEditor\Source\GASAttachEditor\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GASAttachEditor\Source\GASAttachEditor\Private\SGASAttachEditor.cpp">
+      <Filter>Plugins\GASAttachEditor\Source\GASAttachEditor\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\GASAttachEditor\Source\GASAttachEditor\Private\SGASAttachEditor.h">
+      <Filter>Plugins\GASAttachEditor\Source\GASAttachEditor\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\GASAttachEditor\Source\GASAttachEditor\Private\SGASTagLookAsset.cpp">
+      <Filter>Plugins\GASAttachEditor\Source\GASAttachEditor\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\GASAttachEditor\Source\GASAttachEditor\Private\SGASTagLookAsset.h">
+      <Filter>Plugins\GASAttachEditor\Source\GASAttachEditor\Private</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\GASAttachEditor\Source\GASAttachEditor\Private\GASAttachEditor">
+      <UniqueIdentifier>{E7758496-DFC8-322E-911D-E5187B185458}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\GASAttachEditor\Source\GASAttachEditor\Private\GASAttachEditor\SGASAttributesNodeBase.cpp">
+      <Filter>Plugins\GASAttachEditor\Source\GASAttachEditor\Private\GASAttachEditor</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\GASAttachEditor\Source\GASAttachEditor\Private\GASAttachEditor\SGASAttributesNodeBase.h">
+      <Filter>Plugins\GASAttachEditor\Source\GASAttachEditor\Private\GASAttachEditor</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\GASAttachEditor\Source\GASAttachEditor\Private\GASAttachEditor\SGASCharacterTagsBase.cpp">
+      <Filter>Plugins\GASAttachEditor\Source\GASAttachEditor\Private\GASAttachEditor</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\GASAttachEditor\Source\GASAttachEditor\Private\GASAttachEditor\SGASCharacterTagsBase.h">
+      <Filter>Plugins\GASAttachEditor\Source\GASAttachEditor\Private\GASAttachEditor</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\GASAttachEditor\Source\GASAttachEditor\Private\GASAttachEditor\SGASGameplayEffectNodeBase.cpp">
+      <Filter>Plugins\GASAttachEditor\Source\GASAttachEditor\Private\GASAttachEditor</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\GASAttachEditor\Source\GASAttachEditor\Private\GASAttachEditor\SGASGameplayEffectNodeBase.h">
+      <Filter>Plugins\GASAttachEditor\Source\GASAttachEditor\Private\GASAttachEditor</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\GASAttachEditor\Source\GASAttachEditor\Private\GASAttachEditor\SGASReflectorNodeBase.cpp">
+      <Filter>Plugins\GASAttachEditor\Source\GASAttachEditor\Private\GASAttachEditor</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\GASAttachEditor\Source\GASAttachEditor\Private\GASAttachEditor\SGASReflectorNodeBase.h">
+      <Filter>Plugins\GASAttachEditor\Source\GASAttachEditor\Private\GASAttachEditor</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\GASAttachEditor\Source\GASAttachEditor\Private\TagLookAsset">
+      <UniqueIdentifier>{8A54CB02-380F-32B7-B171-11DB529A4549}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\GASAttachEditor\Source\GASAttachEditor\Private\TagLookAsset\SGASLookAssetBase.cpp">
+      <Filter>Plugins\GASAttachEditor\Source\GASAttachEditor\Private\TagLookAsset</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\GASAttachEditor\Source\GASAttachEditor\Private\TagLookAsset\SGASLookAssetBase.h">
+      <Filter>Plugins\GASAttachEditor\Source\GASAttachEditor\Private\TagLookAsset</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\GASAttachEditor\Source\GASAttachEditor\Public">
+      <UniqueIdentifier>{018FECD0-24B2-3643-AA70-C9506E407028}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\GASAttachEditor\Source\GASAttachEditor\Public\GASAttachEditor.h">
+      <Filter>Plugins\GASAttachEditor\Source\GASAttachEditor\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\GASAttachEditor\Source\GASAttachEditor\Public\GASAttachEditorCommands.h">
+      <Filter>Plugins\GASAttachEditor\Source\GASAttachEditor\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\GASAttachEditor\Source\GASAttachEditor\Public\GASAttachEditorStyle.h">
+      <Filter>Plugins\GASAttachEditor\Source\GASAttachEditor\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\ImposterGenerator\Source">
+      <UniqueIdentifier>{98AFDE20-FFEE-36CB-BF6B-C6F732A29037}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\ImposterGenerator\Source\ImposterGenerator">
+      <UniqueIdentifier>{2056A1A1-0F50-3E04-873E-265249963292}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\ImposterGenerator\Source\ImposterGenerator\ImposterGenerator.Build.cs">
+      <Filter>Plugins\ImposterGenerator\Source\ImposterGenerator</Filter>
+    </None>
+    <Filter Include="Plugins\ImposterGenerator\Source\ImposterGenerator\Private">
+      <UniqueIdentifier>{34E34C7C-2B3B-3334-A1CA-9E001BE1ADB2}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\ImposterGenerator\Source\ImposterGenerator\Private\ImposterAssets.cpp">
+      <Filter>Plugins\ImposterGenerator\Source\ImposterGenerator\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\ImposterGenerator\Source\ImposterGenerator\Private\ImposterAssets.h">
+      <Filter>Plugins\ImposterGenerator\Source\ImposterGenerator\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\ImposterGenerator\Source\ImposterGenerator\Private\ImposterGenerator.cpp">
+      <Filter>Plugins\ImposterGenerator\Source\ImposterGenerator\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\ImposterGenerator\Source\ImposterGenerator\Private\ImposterGenerator.h">
+      <Filter>Plugins\ImposterGenerator\Source\ImposterGenerator\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\ImposterGenerator\Source\ImposterGenerator\Private\ImposterGeneratorLocalization.cpp">
+      <Filter>Plugins\ImposterGenerator\Source\ImposterGenerator\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\ImposterGenerator\Source\ImposterGenerator\Private\ImposterGeneratorLocalization.h">
+      <Filter>Plugins\ImposterGenerator\Source\ImposterGenerator\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\ImposterGenerator\Source\ImposterGenerator\Private\ImposterGeneratorModule.cpp">
+      <Filter>Plugins\ImposterGenerator\Source\ImposterGenerator\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ImposterGenerator\Source\ImposterGenerator\Private\ImposterPreview.cpp">
+      <Filter>Plugins\ImposterGenerator\Source\ImposterGenerator\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\ImposterGenerator\Source\ImposterGenerator\Private\ImposterPreview.h">
+      <Filter>Plugins\ImposterGenerator\Source\ImposterGenerator\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\ImposterGenerator\Source\ImposterGenerator\Private\ImposterRenderer.cpp">
+      <Filter>Plugins\ImposterGenerator\Source\ImposterGenerator\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\ImposterGenerator\Source\ImposterGenerator\Private\ImposterRenderer.h">
+      <Filter>Plugins\ImposterGenerator\Source\ImposterGenerator\Private</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\ImposterGenerator\Source\ImposterGenerator\Public">
+      <UniqueIdentifier>{32DEC2B7-E2A4-371F-9C65-919A5A55F92F}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\ImposterGenerator\Source\ImposterGenerator\Public\ImposterGeneratorModule.h">
+      <Filter>Plugins\ImposterGenerator\Source\ImposterGenerator\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\NiagaraUIRenderer\Source">
+      <UniqueIdentifier>{7E30BE71-7FE5-350C-ACB5-0E48BF6F544A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\NiagaraUIRenderer\Source\NiagaraUIRendererEditor">
+      <UniqueIdentifier>{A9EB34D2-3017-36F1-BA09-6B5284B2808E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\NiagaraUIRenderer\Source\NiagaraUIRendererEditor\NiagaraUIRendererEditor.Build.cs">
+      <Filter>Plugins\NiagaraUIRenderer\Source\NiagaraUIRendererEditor</Filter>
+    </None>
+    <Filter Include="Plugins\NiagaraUIRenderer\Source\NiagaraUIRendererEditor\Private">
+      <UniqueIdentifier>{F0C2DAA5-FBE6-3441-AC93-5F00CA53A139}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\NiagaraUIRenderer\Source\NiagaraUIRendererEditor\Private\NiagaraUIContentBrowserExtension.cpp">
+      <Filter>Plugins\NiagaraUIRenderer\Source\NiagaraUIRendererEditor\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\NiagaraUIRenderer\Source\NiagaraUIRendererEditor\Private\NiagaraUIRendererEditor.cpp">
+      <Filter>Plugins\NiagaraUIRenderer\Source\NiagaraUIRendererEditor\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\NiagaraUIRenderer\Source\NiagaraUIRendererEditor\Private\NiagaraUIRendererEditorStyle.cpp">
+      <Filter>Plugins\NiagaraUIRenderer\Source\NiagaraUIRendererEditor\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\NiagaraUIRenderer\Source\NiagaraUIRendererEditor\Private\NiagaraWidgetDetailCustomization.cpp">
+      <Filter>Plugins\NiagaraUIRenderer\Source\NiagaraUIRendererEditor\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\NiagaraUIRenderer\Source\NiagaraUIRendererEditor\Public">
+      <UniqueIdentifier>{DDAD44C4-6246-3485-8FEA-41E4AE838F78}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\NiagaraUIRenderer\Source\NiagaraUIRendererEditor\Public\NiagaraUIContentBrowserExtension.h">
+      <Filter>Plugins\NiagaraUIRenderer\Source\NiagaraUIRendererEditor\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\NiagaraUIRenderer\Source\NiagaraUIRendererEditor\Public\NiagaraUIRendererEditor.h">
+      <Filter>Plugins\NiagaraUIRenderer\Source\NiagaraUIRendererEditor\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\NiagaraUIRenderer\Source\NiagaraUIRendererEditor\Public\NiagaraUIRendererEditorStyle.h">
+      <Filter>Plugins\NiagaraUIRenderer\Source\NiagaraUIRendererEditor\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\NiagaraUIRenderer\Source\NiagaraUIRendererEditor\Public\NiagaraWidgetDetailCustomization.h">
+      <Filter>Plugins\NiagaraUIRenderer\Source\NiagaraUIRendererEditor\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\NiagaraUIRenderer\Source\NiagaraUIRenderer">
+      <UniqueIdentifier>{8F80EE8B-36CA-3E22-81AA-24ABF045751C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\NiagaraUIRenderer\Source\NiagaraUIRenderer\NiagaraUIRenderer.Build.cs">
+      <Filter>Plugins\NiagaraUIRenderer\Source\NiagaraUIRenderer</Filter>
+    </None>
+    <Filter Include="Plugins\NiagaraUIRenderer\Source\NiagaraUIRenderer\Private">
+      <UniqueIdentifier>{DEBAD46D-C68F-3941-8435-773629DAD3DE}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\NiagaraUIRenderer\Source\NiagaraUIRenderer\Private\NiagaraSystemWidget.cpp">
+      <Filter>Plugins\NiagaraUIRenderer\Source\NiagaraUIRenderer\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\NiagaraUIRenderer\Source\NiagaraUIRenderer\Private\NiagaraUIActor.cpp">
+      <Filter>Plugins\NiagaraUIRenderer\Source\NiagaraUIRenderer\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\NiagaraUIRenderer\Source\NiagaraUIRenderer\Private\NiagaraUIComponent.cpp">
+      <Filter>Plugins\NiagaraUIRenderer\Source\NiagaraUIRenderer\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\NiagaraUIRenderer\Source\NiagaraUIRenderer\Private\NiagaraUIRenderer.cpp">
+      <Filter>Plugins\NiagaraUIRenderer\Source\NiagaraUIRenderer\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\NiagaraUIRenderer\Source\NiagaraUIRenderer\Private\NiagaraWidgetProperties.cpp">
+      <Filter>Plugins\NiagaraUIRenderer\Source\NiagaraUIRenderer\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\NiagaraUIRenderer\Source\NiagaraUIRenderer\Private\SNiagaraUISystemWidget.cpp">
+      <Filter>Plugins\NiagaraUIRenderer\Source\NiagaraUIRenderer\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\NiagaraUIRenderer\Source\NiagaraUIRenderer\Public">
+      <UniqueIdentifier>{BDBAC6ED-63D0-37CD-AE9D-C6FF08206623}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\NiagaraUIRenderer\Source\NiagaraUIRenderer\Public\NiagaraSystemWidget.h">
+      <Filter>Plugins\NiagaraUIRenderer\Source\NiagaraUIRenderer\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\NiagaraUIRenderer\Source\NiagaraUIRenderer\Public\NiagaraUIActor.h">
+      <Filter>Plugins\NiagaraUIRenderer\Source\NiagaraUIRenderer\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\NiagaraUIRenderer\Source\NiagaraUIRenderer\Public\NiagaraUIComponent.h">
+      <Filter>Plugins\NiagaraUIRenderer\Source\NiagaraUIRenderer\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\NiagaraUIRenderer\Source\NiagaraUIRenderer\Public\NiagaraUIRenderer.h">
+      <Filter>Plugins\NiagaraUIRenderer\Source\NiagaraUIRenderer\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\NiagaraUIRenderer\Source\NiagaraUIRenderer\Public\NiagaraWidgetProperties.h">
+      <Filter>Plugins\NiagaraUIRenderer\Source\NiagaraUIRenderer\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\NiagaraUIRenderer\Source\NiagaraUIRenderer\Public\SNiagaraUISystemWidget.h">
+      <Filter>Plugins\NiagaraUIRenderer\Source\NiagaraUIRenderer\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\VRM4U\Source">
+      <UniqueIdentifier>{E0A2B075-770E-31C5-8DEF-EB1742950790}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\VRM4U\Source\VRM4UCapture">
+      <UniqueIdentifier>{C59C6C01-B3E9-33C3-86E8-7BEC177FEDD1}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\VRM4U\Source\VRM4UCapture\VRM4UCapture.Build.cs">
+      <Filter>Plugins\VRM4U\Source\VRM4UCapture</Filter>
+    </None>
+    <Filter Include="Plugins\VRM4U\Source\VRM4UCapture\Private">
+      <UniqueIdentifier>{437EC01E-9235-37F5-9790-B408A03DD220}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4UCapture\Private\VRM4UCapture.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4UCapture\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4UCapture\Private\VRM4UCapture.h">
+      <Filter>Plugins\VRM4U\Source\VRM4UCapture\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4UCapture\Private\VRM4UCaptureLog.h">
+      <Filter>Plugins\VRM4U\Source\VRM4UCapture\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4UCapture\Private\VrmCaptureManager.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4UCapture\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4UCapture\Private\VrmMocopiReceiver.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4UCapture\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\VRM4U\Source\VRM4UCapture\Public">
+      <UniqueIdentifier>{3DED532F-2C2E-3C84-A62E-D5A366BC661E}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4UCapture\Public\VrmCaptureManager.h">
+      <Filter>Plugins\VRM4U\Source\VRM4UCapture\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4UCapture\Public\VrmMocopiReceiver.h">
+      <Filter>Plugins\VRM4U\Source\VRM4UCapture\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\VRM4U\Source\VRM4UEditor">
+      <UniqueIdentifier>{3EC89E0C-2D05-349D-B97B-3D9D08516179}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\VRM4U\Source\VRM4UEditor\VRM4UEditor.Build.cs">
+      <Filter>Plugins\VRM4U\Source\VRM4UEditor</Filter>
+    </None>
+    <Filter Include="Plugins\VRM4U\Source\VRM4UEditor\Private">
+      <UniqueIdentifier>{1A2B4EEE-342D-3959-BC49-2C84CC3B760E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4UEditor\Private\VRM4UEditor.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4UEditor\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4UEditor\Private\VRM4UEditor.h">
+      <Filter>Plugins\VRM4U\Source\VRM4UEditor\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4UEditor\Private\VRM4UEditorLog.h">
+      <Filter>Plugins\VRM4U\Source\VRM4UEditor\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4UEditor\Private\VrmEditorBPFunctionLibrary.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4UEditor\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\VRM4U\Source\VRM4UEditor\Public">
+      <UniqueIdentifier>{3BD98989-5704-32BE-ACFF-D6BE251A5937}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4UEditor\Public\VrmEditorBPFunctionLibrary.h">
+      <Filter>Plugins\VRM4U\Source\VRM4UEditor\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\VRM4U\Source\VRM4UImporter">
+      <UniqueIdentifier>{33536A6C-46DD-38E7-989C-58021DCB31D7}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\VRM4U\Source\VRM4UImporter\VRM4UImporter.Build.cs">
+      <Filter>Plugins\VRM4U\Source\VRM4UImporter</Filter>
+    </None>
+    <Filter Include="Plugins\VRM4U\Source\VRM4UImporter\Private">
+      <UniqueIdentifier>{9E9810BD-A9B7-317C-87AA-43BCD3A15AE0}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4UImporter\Private\AnimGraphNode_VrmCopyHandBone.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4UImporter\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4UImporter\Private\AnimGraphNode_VrmCopyHandBone.h">
+      <Filter>Plugins\VRM4U\Source\VRM4UImporter\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4UImporter\Private\AnimGraphNode_VrmModifyBoneDynamic.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4UImporter\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4UImporter\Private\AnimGraphNode_VrmModifyBoneDynamic.h">
+      <Filter>Plugins\VRM4U\Source\VRM4UImporter\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4UImporter\Private\AnimGraphNode_VrmModifyBoneList.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4UImporter\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4UImporter\Private\AnimGraphNode_VrmModifyBoneList.h">
+      <Filter>Plugins\VRM4U\Source\VRM4UImporter\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4UImporter\Private\AnimGraphNode_VrmModifyBoneListRetarget.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4UImporter\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4UImporter\Private\AnimGraphNode_VrmModifyBoneListRetarget.h">
+      <Filter>Plugins\VRM4U\Source\VRM4UImporter\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4UImporter\Private\AnimGraphNode_VrmModifyHumanoidBone.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4UImporter\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4UImporter\Private\AnimGraphNode_VrmModifyHumanoidBone.h">
+      <Filter>Plugins\VRM4U\Source\VRM4UImporter\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4UImporter\Private\AnimGraphNode_VrmQuestHandBone.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4UImporter\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4UImporter\Private\AnimGraphNode_VrmQuestHandBone.h">
+      <Filter>Plugins\VRM4U\Source\VRM4UImporter\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4UImporter\Private\AnimGraphNode_VrmRetargetFromMannequin.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4UImporter\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4UImporter\Private\AnimGraphNode_VrmRetargetFromMannequin.h">
+      <Filter>Plugins\VRM4U\Source\VRM4UImporter\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4UImporter\Private\AnimGraphNode_VrmSpringBone.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4UImporter\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4UImporter\Private\AnimGraphNode_VrmSpringBone.h">
+      <Filter>Plugins\VRM4U\Source\VRM4UImporter\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4UImporter\Private\VRM4UDetailCustomize.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4UImporter\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4UImporter\Private\VRM4UDetailCustomize.h">
+      <Filter>Plugins\VRM4U\Source\VRM4UImporter\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4UImporter\Private\VRM4UImporterFactory.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4UImporter\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4UImporter\Private\VRM4UImporterFactory.h">
+      <Filter>Plugins\VRM4U\Source\VRM4UImporter\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4UImporter\Private\VRM4UImporterLog.h">
+      <Filter>Plugins\VRM4U\Source\VRM4UImporter\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4UImporter\Private\VRM4UImporterModule.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4UImporter\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4UImporter\Private\VrmAssetListThumbnailRenderer.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4UImporter\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4UImporter\Private\VrmAssetListThumbnailRenderer.h">
+      <Filter>Plugins\VRM4U\Source\VRM4UImporter\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4UImporter\Private\VrmImportUI.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4UImporter\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4UImporter\Private\VrmImportUI.h">
+      <Filter>Plugins\VRM4U\Source\VRM4UImporter\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4UImporter\Private\VrmOptionWindow.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4UImporter\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4UImporter\Private\VrmOptionWindow.h">
+      <Filter>Plugins\VRM4U\Source\VRM4UImporter\Private</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\VRM4U\Source\VRM4ULoader">
+      <UniqueIdentifier>{BADB2B04-CF07-30B8-9698-51AF3D66E9A6}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\VRM4U\Source\VRM4ULoader\VRM4ULoader.Build.cs">
+      <Filter>Plugins\VRM4U\Source\VRM4ULoader</Filter>
+    </None>
+    <None Include="..\..\Plugins\VRM4U\Source\VRM4ULoader\VRM4ULoader_APL.xml">
+      <Filter>Plugins\VRM4U\Source\VRM4ULoader</Filter>
+    </None>
+    <Filter Include="Plugins\VRM4U\Source\VRM4ULoader\Private">
+      <UniqueIdentifier>{F922CE95-21A8-3917-BCF8-AF4D47695094}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4ULoader\Private\LoaderBPFunctionLibrary.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4ULoader\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4ULoader\Private\VRM4ULoaderLog.h">
+      <Filter>Plugins\VRM4U\Source\VRM4ULoader\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4ULoader\Private\VRM4ULoaderModule.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4ULoader\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4ULoader\Private\VrmAsyncLoadAction.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4ULoader\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4ULoader\Private\VrmAsyncLoadAction.h">
+      <Filter>Plugins\VRM4U\Source\VRM4ULoader\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4ULoader\Private\VrmConvert.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4ULoader\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4ULoader\Private\VrmConvertHumanoid.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4ULoader\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4ULoader\Private\VrmConvertMetadata.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4ULoader\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4ULoader\Private\VrmConvertModel.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4ULoader\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4ULoader\Private\VrmConvertMorphTarget.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4ULoader\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4ULoader\Private\VrmConvertPose.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4ULoader\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4ULoader\Private\VrmConvertRig.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4ULoader\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4ULoader\Private\VrmConvertTexture.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4ULoader\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4ULoader\Private\VrmJson.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4ULoader\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4ULoader\Private\VrmLoaderComponent.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4ULoader\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4ULoader\Private\VrmSkeletalMesh.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4ULoader\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4ULoader\Private\VrmSkeletalMeshComponent.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4ULoader\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4ULoader\Private\VrmSkeleton.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4ULoader\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\VRM4U\Source\VRM4ULoader\Public">
+      <UniqueIdentifier>{7AD88F51-6DB0-3599-BF26-BBFA8C1264C6}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4ULoader\Public\LoaderBPFunctionLibrary.h">
+      <Filter>Plugins\VRM4U\Source\VRM4ULoader\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4ULoader\Public\VrmConvert.h">
+      <Filter>Plugins\VRM4U\Source\VRM4ULoader\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4ULoader\Public\VrmConvertHumanoid.h">
+      <Filter>Plugins\VRM4U\Source\VRM4ULoader\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4ULoader\Public\VrmConvertMetadata.h">
+      <Filter>Plugins\VRM4U\Source\VRM4ULoader\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4ULoader\Public\VrmConvertModel.h">
+      <Filter>Plugins\VRM4U\Source\VRM4ULoader\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4ULoader\Public\VrmConvertMorphTarget.h">
+      <Filter>Plugins\VRM4U\Source\VRM4ULoader\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4ULoader\Public\VrmConvertRig.h">
+      <Filter>Plugins\VRM4U\Source\VRM4ULoader\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4ULoader\Public\VrmConvertTexture.h">
+      <Filter>Plugins\VRM4U\Source\VRM4ULoader\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4ULoader\Public\VrmJson.h">
+      <Filter>Plugins\VRM4U\Source\VRM4ULoader\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4ULoader\Public\VrmLoaderComponent.h">
+      <Filter>Plugins\VRM4U\Source\VRM4ULoader\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4ULoader\Public\VrmSkeletalMesh.h">
+      <Filter>Plugins\VRM4U\Source\VRM4ULoader\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4ULoader\Public\VrmSkeletalMeshComponent.h">
+      <Filter>Plugins\VRM4U\Source\VRM4ULoader\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4ULoader\Public\VrmSkeleton.h">
+      <Filter>Plugins\VRM4U\Source\VRM4ULoader\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\VRM4U\Source\VRM4UMisc">
+      <UniqueIdentifier>{A9452116-4467-3186-966D-65DEBF194B65}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\VRM4U\Source\VRM4UMisc\VRM4UMisc.Build.cs">
+      <Filter>Plugins\VRM4U\Source\VRM4UMisc</Filter>
+    </None>
+    <Filter Include="Plugins\VRM4U\Source\VRM4UMisc\Private">
+      <UniqueIdentifier>{3F2BE97C-5C5E-361F-9935-975A634D2116}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4UMisc\Private\VRM4UMisc.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4UMisc\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4UMisc\Private\VRM4UMisc.h">
+      <Filter>Plugins\VRM4U\Source\VRM4UMisc\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4UMisc\Private\VRM4UMiscLog.h">
+      <Filter>Plugins\VRM4U\Source\VRM4UMisc\Private</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\VRM4U\Source\VRM4U">
+      <UniqueIdentifier>{0F885B3B-A49E-3C64-A14C-2615D6733862}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\VRM4U\Source\VRM4U\VRM4U.Build.cs">
+      <Filter>Plugins\VRM4U\Source\VRM4U</Filter>
+    </None>
+    <Filter Include="Plugins\VRM4U\Source\VRM4U\Private">
+      <UniqueIdentifier>{41CD66F1-C4EF-3217-96E7-5F7D337DE08E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4U\Private\AnimNode_VrmCopyHandBone.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4U\Private\AnimNode_VrmModifyBoneDynamic.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4U\Private\AnimNode_VrmModifyBoneList.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4U\Private\AnimNode_VrmModifyBoneListRetarget.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4U\Private\AnimNode_VrmModifyHumanoidBone.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4U\Private\AnimNode_VrmQuestHandBone.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4U\Private\AnimNode_VrmRetargetFromMannequin.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4U\Private\AnimNode_VrmSpringBone.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4U\Private\VRM4U.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4U\Private\VRM4U_AnimSubsystem.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4U\Private\VrmAnimInstance.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4U\Private\VrmAnimInstanceCopy.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4U\Private\VrmAssetListObject.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4U\Private\VrmBPFunctionLibrary.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4U\Private\VrmCameraCheckComponent.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4U\Private\VrmCineCameraActor.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4U\Private\VrmCineCameraComponent.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4U\Private\VrmCustomStruct.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4U\Private\VrmDrawFrustumComponent.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4U\Private\VrmDropFiles.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4U\Private\VrmEditorEventComponent.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4U\Private\VrmHMDTrackingComponent.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4U\Private\VrmHMDTrackingComponent.h">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4U\Private\VrmImportMaterialSet.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4U\Private\VrmLicenseObject.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4U\Private\VrmMetaObject.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4U\Private\VrmModelActor.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4U\Private\VrmNetworkBPFunctionLibrary.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4U\Private\VrmPoseableMeshComponent.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4U\Private\VrmRuntimeSettings.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4U\Private\VrmUtil.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VRM4U\Source\VRM4U\Private\VrmUtilImage.cpp">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\VRM4U\Source\VRM4U\Public">
+      <UniqueIdentifier>{8347993B-BC3E-35DD-ACFD-D16C7639ADE3}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4U\Public\AnimNode_VrmCopyHandBone.h">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4U\Public\AnimNode_VrmModifyBoneDynamic.h">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4U\Public\AnimNode_VrmModifyBoneList.h">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4U\Public\AnimNode_VrmModifyBoneListRetarget.h">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4U\Public\AnimNode_VrmModifyHumanoidBone.h">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4U\Public\AnimNode_VrmQuestHandBone.h">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4U\Public\AnimNode_VrmRetargetFromMannequin.h">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4U\Public\AnimNode_VrmSpringBone.h">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4U\Public\VRM4U.h">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4U\Public\VRM4U_AnimSubsystem.h">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4U\Public\VrmAnimInstance.h">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4U\Public\VrmAnimInstanceCopy.h">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4U\Public\VrmAssetListObject.h">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4U\Public\VrmBPFunctionLibrary.h">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4U\Public\VrmCameraCheckComponent.h">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4U\Public\VrmCineCameraActor.h">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4U\Public\VrmCineCameraComponent.h">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4U\Public\VrmCustomStruct.h">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4U\Public\VrmDrawFrustumComponent.h">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4U\Public\VrmDropFiles.h">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4U\Public\VrmEditorEventComponent.h">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4U\Public\VrmImportMaterialSet.h">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4U\Public\VrmLicenseObject.h">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4U\Public\VrmMetaObject.h">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4U\Public\VrmModelActor.h">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4U\Public\VrmNetworkBPFunctionLibrary.h">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4U\Public\VrmPoseableMeshComponent.h">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4U\Public\VrmRuntimeSettings.h">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VRM4U\Source\VRM4U\Public\VrmUtil.h">
+      <Filter>Plugins\VRM4U\Source\VRM4U\Public</Filter>
+    </ClInclude>
+    <Filter Include="Source\BOTWEditor">
+      <UniqueIdentifier>{30448C09-40B8-33F4-B833-B2D37D2FCE46}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\BOTWEditor\BOTWEditor.Build.cs">
+      <Filter>Source\BOTWEditor</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\BOTWEditor\BOTWEditor.cpp">
+      <Filter>Source\BOTWEditor</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BOTWEditor\BOTWEditor.h">
+      <Filter>Source\BOTWEditor</Filter>
+    </ClInclude>
+    <Filter Include="Source\BOTW">
+      <UniqueIdentifier>{9571C9C5-1896-325E-8B3D-15B9C20E58A6}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\BOTW\BOTW.Build.cs">
+      <Filter>Source\BOTW</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\BOTW\BOTW.cpp">
+      <Filter>Source\BOTW</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BOTW\BOTW.h">
+      <Filter>Source\BOTW</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BOTW\BOTWGameModeBase.cpp">
+      <Filter>Source\BOTW</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BOTW\BOTWGameModeBase.h">
+      <Filter>Source\BOTW</Filter>
+    </ClInclude>
+    <Filter Include="Source\BOTW\Abilities">
+      <UniqueIdentifier>{032D3EA4-BAFD-3678-AF98-78FED38286AA}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\BOTW\Abilities\BOTWAbilitySet.cpp">
+      <Filter>Source\BOTW\Abilities</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BOTW\Abilities\BOTWAbilitySet.h">
+      <Filter>Source\BOTW\Abilities</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BOTW\Abilities\BOTWAbilitySystemComponent.cpp">
+      <Filter>Source\BOTW\Abilities</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BOTW\Abilities\BOTWAbilitySystemComponent.h">
+      <Filter>Source\BOTW\Abilities</Filter>
+    </ClInclude>
+    <Filter Include="Source\BOTW\Abilities\Ability">
+      <UniqueIdentifier>{B8250B8D-8F35-322F-8E7A-C5D65F35D8DC}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\BOTW\Abilities\Ability\BOTWGameplayAbilityBase.cpp">
+      <Filter>Source\BOTW\Abilities\Ability</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BOTW\Abilities\Ability\BOTWGameplayAbilityBase.h">
+      <Filter>Source\BOTW\Abilities\Ability</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BOTW\Abilities\Ability\BOTWGA_Carrying.cpp">
+      <Filter>Source\BOTW\Abilities\Ability</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BOTW\Abilities\Ability\BOTWGA_Carrying.h">
+      <Filter>Source\BOTW\Abilities\Ability</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BOTW\Abilities\Ability\BOTWGA_CharacterClimbing.cpp">
+      <Filter>Source\BOTW\Abilities\Ability</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BOTW\Abilities\Ability\BOTWGA_CharacterClimbing.h">
+      <Filter>Source\BOTW\Abilities\Ability</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BOTW\Abilities\Ability\BOTWGA_EquipWeapon.cpp">
+      <Filter>Source\BOTW\Abilities\Ability</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BOTW\Abilities\Ability\BOTWGA_EquipWeapon.h">
+      <Filter>Source\BOTW\Abilities\Ability</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BOTW\Abilities\Ability\BOTWGA_Interaction.cpp">
+      <Filter>Source\BOTW\Abilities\Ability</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BOTW\Abilities\Ability\BOTWGA_Interaction.h">
+      <Filter>Source\BOTW\Abilities\Ability</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BOTW\Abilities\Ability\BOTWGA_LockOn.cpp">
+      <Filter>Source\BOTW\Abilities\Ability</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BOTW\Abilities\Ability\BOTWGA_LockOn.h">
+      <Filter>Source\BOTW\Abilities\Ability</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BOTW\Abilities\Ability\BOTWGA_MeleeAttack.cpp">
+      <Filter>Source\BOTW\Abilities\Ability</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BOTW\Abilities\Ability\BOTWGA_MeleeAttack.h">
+      <Filter>Source\BOTW\Abilities\Ability</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BOTW\Abilities\Ability\BOTWGA_Parrying.cpp">
+      <Filter>Source\BOTW\Abilities\Ability</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BOTW\Abilities\Ability\BOTWGA_Parrying.h">
+      <Filter>Source\BOTW\Abilities\Ability</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BOTW\Abilities\Ability\BOTWGA_Rush.cpp">
+      <Filter>Source\BOTW\Abilities\Ability</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BOTW\Abilities\Ability\BOTWGA_Rush.h">
+      <Filter>Source\BOTW\Abilities\Ability</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BOTW\Abilities\Ability\BOTWGA_ShieldGuard.cpp">
+      <Filter>Source\BOTW\Abilities\Ability</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BOTW\Abilities\Ability\BOTWGA_ShieldGuard.h">
+      <Filter>Source\BOTW\Abilities\Ability</Filter>
+    </ClInclude>
+    <Filter Include="Source\BOTW\Abilities\AbilityTask">
+      <UniqueIdentifier>{8059C807-0046-3AAE-83DD-C2738E85955B}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\BOTW\Abilities\AbilityTask\AT_CheckLockOnDistance.cpp">
+      <Filter>Source\BOTW\Abilities\AbilityTask</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BOTW\Abilities\AbilityTask\AT_CheckLockOnDistance.h">
+      <Filter>Source\BOTW\Abilities\AbilityTask</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BOTW\Abilities\AbilityTask\AT_CorrectionRushTimeDilation.cpp">
+      <Filter>Source\BOTW\Abilities\AbilityTask</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BOTW\Abilities\AbilityTask\AT_CorrectionRushTimeDilation.h">
+      <Filter>Source\BOTW\Abilities\AbilityTask</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BOTW\Abilities\AbilityTask\AT_PlayMontageAndWaitForEvent.cpp">
+      <Filter>Source\BOTW\Abilities\AbilityTask</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BOTW\Abilities\AbilityTask\AT_PlayMontageAndWaitForEvent.h">
+      <Filter>Source\BOTW\Abilities\AbilityTask</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BOTW\Abilities\AbilityTask\AT_TraceMeleeAttack.cpp">
+      <Filter>Source\BOTW\Abilities\AbilityTask</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BOTW\Abilities\AbilityTask\AT_TraceMeleeAttack.h">
+      <Filter>Source\BOTW\Abilities\AbilityTask</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BOTW\Abilities\AbilityTask\AT_WaitDelay.cpp">
+      <Filter>Source\BOTW\Abilities\AbilityTask</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BOTW\Abilities\AbilityTask\AT_WaitDelay.h">
+      <Filter>Source\BOTW\Abilities\AbilityTask</Filter>
+    </ClInclude>
+    <Filter Include="Source\BOTW\Abilities\ExecutionCalculation">
+      <UniqueIdentifier>{5BE6BD78-5ABA-3FB5-BB0D-28AEB8511035}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\BOTW\Abilities\ExecutionCalculation\BOTWDamageExecutionCalculation.cpp">
+      <Filter>Source\BOTW\Abilities\ExecutionCalculation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BOTW\Abilities\ExecutionCalculation\BOTWDamageExecutionCalculation.h">
+      <Filter>Source\BOTW\Abilities\ExecutionCalculation</Filter>
+    </ClInclude>
+    <Filter Include="Source\BOTW\AnimNotify">
+      <UniqueIdentifier>{D2388EE0-1E6B-3C07-9006-480B090CC743}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\BOTW\AnimNotify\AnimNotifyState_ApplyGameplayTag.cpp">
+      <Filter>Source\BOTW\AnimNotify</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BOTW\AnimNotify\AnimNotifyState_ApplyGameplayTag.h">
+      <Filter>Source\BOTW\AnimNotify</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BOTW\AnimNotify\AnimNotifyState_SendGameplayEventToActor.cpp">
+      <Filter>Source\BOTW\AnimNotify</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BOTW\AnimNotify\AnimNotifyState_SendGameplayEventToActor.h">
+      <Filter>Source\BOTW\AnimNotify</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BOTW\AnimNotify\AnimNotify_SendGameplayEventToActor.cpp">
+      <Filter>Source\BOTW\AnimNotify</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BOTW\AnimNotify\AnimNotify_SendGameplayEventToActor.h">
+      <Filter>Source\BOTW\AnimNotify</Filter>
+    </ClInclude>
+    <Filter Include="Source\BOTW\Character">
+      <UniqueIdentifier>{F3E9EA2D-677F-3816-B483-DDA6967C3B3F}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\BOTW\Character\CharacterAnimInstanceBase.cpp">
+      <Filter>Source\BOTW\Character</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BOTW\Character\CharacterAnimInstanceBase.h">
+      <Filter>Source\BOTW\Character</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BOTW\Character\CharacterBase.cpp">
+      <Filter>Source\BOTW\Character</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BOTW\Character\CharacterBase.h">
+      <Filter>Source\BOTW\Character</Filter>
+    </ClInclude>
+    <Filter Include="Source\BOTW\Character\Components">
+      <UniqueIdentifier>{56C401CF-4A75-3142-B72C-A3DC61B29215}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\BOTW\Character\Components\BOTWCharacterMovementComponent.cpp">
+      <Filter>Source\BOTW\Character\Components</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BOTW\Character\Components\BOTWCharacterMovementComponent.h">
+      <Filter>Source\BOTW\Character\Components</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BOTW\Character\Components\BOTWInputComponent.cpp">
+      <Filter>Source\BOTW\Character\Components</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BOTW\Character\Components\BOTWInputComponent.h">
+      <Filter>Source\BOTW\Character\Components</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BOTW\Character\Components\BOTWStatusComponent.cpp">
+      <Filter>Source\BOTW\Character\Components</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BOTW\Character\Components\BOTWStatusComponent.h">
+      <Filter>Source\BOTW\Character\Components</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BOTW\Character\Components\LocomotionComponent.cpp">
+      <Filter>Source\BOTW\Character\Components</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BOTW\Character\Components\LocomotionComponent.h">
+      <Filter>Source\BOTW\Character\Components</Filter>
+    </ClInclude>
+    <Filter Include="Source\BOTW\Character\Player">
+      <UniqueIdentifier>{87EF60DC-6723-3E35-B1C7-B4AB43B97B0C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\BOTW\Character\Player\PlayerAnimInstance.cpp">
+      <Filter>Source\BOTW\Character\Player</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BOTW\Character\Player\PlayerAnimInstance.h">
+      <Filter>Source\BOTW\Character\Player</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BOTW\Character\Player\PlayerCharacter.cpp">
+      <Filter>Source\BOTW\Character\Player</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BOTW\Character\Player\PlayerCharacter.h">
+      <Filter>Source\BOTW\Character\Player</Filter>
+    </ClInclude>
+    <Filter Include="Source\BOTW\Character\Player\Camera">
+      <UniqueIdentifier>{8995F2B3-999A-3AFF-BA01-7FB59012ED93}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\BOTW\Character\Player\Camera\BOTWCameraAnimInstance.cpp">
+      <Filter>Source\BOTW\Character\Player\Camera</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BOTW\Character\Player\Camera\BOTWCameraAnimInstance.h">
+      <Filter>Source\BOTW\Character\Player\Camera</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BOTW\Character\Player\Camera\BOTWPlayerCameraManager.cpp">
+      <Filter>Source\BOTW\Character\Player\Camera</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BOTW\Character\Player\Camera\BOTWPlayerCameraManager.h">
+      <Filter>Source\BOTW\Character\Player\Camera</Filter>
+    </ClInclude>
+    <Filter Include="Source\BOTW\Character\Player\Components">
+      <UniqueIdentifier>{81A05F33-4BC6-39DA-8104-C002B16A671F}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\BOTW\Character\Player\Components\CarryComponent.cpp">
+      <Filter>Source\BOTW\Character\Player\Components</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BOTW\Character\Player\Components\CarryComponent.h">
+      <Filter>Source\BOTW\Character\Player\Components</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BOTW\Character\Player\Components\ClimbingComponent.cpp">
+      <Filter>Source\BOTW\Character\Player\Components</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BOTW\Character\Player\Components\ClimbingComponent.h">
+      <Filter>Source\BOTW\Character\Player\Components</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BOTW\Character\Player\Components\PlayerCombatComponent.cpp">
+      <Filter>Source\BOTW\Character\Player\Components</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BOTW\Character\Player\Components\PlayerCombatComponent.h">
+      <Filter>Source\BOTW\Character\Player\Components</Filter>
+    </ClInclude>
+    <Filter Include="Source\BOTW\Controllers">
+      <UniqueIdentifier>{3E6A35C5-9D23-387E-8213-BBDF584CD829}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\BOTW\Controllers\BOTWPlayerController.cpp">
+      <Filter>Source\BOTW\Controllers</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BOTW\Controllers\BOTWPlayerController.h">
+      <Filter>Source\BOTW\Controllers</Filter>
+    </ClInclude>
+    <Filter Include="Source\BOTW\DataAsset">
+      <UniqueIdentifier>{5524C7D2-D6D2-3846-BBAA-EA0D6CC6B65D}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\BOTW\DataAsset\BOTWInputConfig.cpp">
+      <Filter>Source\BOTW\DataAsset</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BOTW\DataAsset\BOTWInputConfig.h">
+      <Filter>Source\BOTW\DataAsset</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BOTW\DataAsset\GameplayEffectData.cpp">
+      <Filter>Source\BOTW\DataAsset</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BOTW\DataAsset\GameplayEffectData.h">
+      <Filter>Source\BOTW\DataAsset</Filter>
+    </ClInclude>
+    <Filter Include="Source\BOTW\Equipment">
+      <UniqueIdentifier>{F477060E-9ED0-3B0D-8B79-F27EB707A5F9}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\BOTW\Equipment\EquipmentActor.cpp">
+      <Filter>Source\BOTW\Equipment</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BOTW\Equipment\EquipmentActor.h">
+      <Filter>Source\BOTW\Equipment</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BOTW\Equipment\EquipmentDefinition.cpp">
+      <Filter>Source\BOTW\Equipment</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BOTW\Equipment\EquipmentDefinition.h">
+      <Filter>Source\BOTW\Equipment</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BOTW\Equipment\EquipmentInstance.cpp">
+      <Filter>Source\BOTW\Equipment</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BOTW\Equipment\EquipmentInstance.h">
+      <Filter>Source\BOTW\Equipment</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BOTW\Equipment\EquipmentManagerComponent.cpp">
+      <Filter>Source\BOTW\Equipment</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BOTW\Equipment\EquipmentManagerComponent.h">
+      <Filter>Source\BOTW\Equipment</Filter>
+    </ClInclude>
+    <Filter Include="Source\BOTW\Equipment\Shield">
+      <UniqueIdentifier>{5C6C4834-236D-3DDC-A2BF-B1254208D252}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\BOTW\Equipment\Shield\ShieldInstance.cpp">
+      <Filter>Source\BOTW\Equipment\Shield</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BOTW\Equipment\Shield\ShieldInstance.h">
+      <Filter>Source\BOTW\Equipment\Shield</Filter>
+    </ClInclude>
+    <Filter Include="Source\BOTW\Interface">
+      <UniqueIdentifier>{0EBF65FA-14EB-3253-93BC-25A2C56B01F6}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\BOTW\Interface\CarryableInterface.cpp">
+      <Filter>Source\BOTW\Interface</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BOTW\Interface\CarryableInterface.h">
+      <Filter>Source\BOTW\Interface</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BOTW\Interface\CombatInterface.cpp">
+      <Filter>Source\BOTW\Interface</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BOTW\Interface\CombatInterface.h">
+      <Filter>Source\BOTW\Interface</Filter>
+    </ClInclude>
+    <Filter Include="Source\BOTW\Inventory">
+      <UniqueIdentifier>{B0672F91-ADEC-3DF2-BE7E-7B966E3AC442}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\BOTW\Inventory\ItemDefinition.cpp">
+      <Filter>Source\BOTW\Inventory</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BOTW\Inventory\ItemDefinition.h">
+      <Filter>Source\BOTW\Inventory</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BOTW\Inventory\ItemFragment_EquippableItem.cpp">
+      <Filter>Source\BOTW\Inventory</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BOTW\Inventory\ItemFragment_EquippableItem.h">
+      <Filter>Source\BOTW\Inventory</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BOTW\Inventory\ItemFragment_SetStats.cpp">
+      <Filter>Source\BOTW\Inventory</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BOTW\Inventory\ItemFragment_SetStats.h">
+      <Filter>Source\BOTW\Inventory</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BOTW\Inventory\ItemInstance.cpp">
+      <Filter>Source\BOTW\Inventory</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BOTW\Inventory\ItemInstance.h">
+      <Filter>Source\BOTW\Inventory</Filter>
+    </ClInclude>
+    <Filter Include="Source\BOTW\Library">
+      <UniqueIdentifier>{99200F8B-C6DF-3C31-9DB1-E49482531C13}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\BOTW\Library\BOTWGameplayTags.cpp">
+      <Filter>Source\BOTW\Library</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BOTW\Library\BOTWGameplayTags.h">
+      <Filter>Source\BOTW\Library</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BOTW\Library\BOTWMathLibrary.cpp">
+      <Filter>Source\BOTW\Library</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BOTW\Library\BOTWMathLibrary.h">
+      <Filter>Source\BOTW\Library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\BOTW\Library\CommonLibrary.h">
+      <Filter>Source\BOTW\Library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\BOTW\Library\EquipmentEnumLibrary.h">
+      <Filter>Source\BOTW\Library</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BOTW\Library\GameplayTagStack.cpp">
+      <Filter>Source\BOTW\Library</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BOTW\Library\GameplayTagStack.h">
+      <Filter>Source\BOTW\Library</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BOTW\Library\GASLibrary.cpp">
+      <Filter>Source\BOTW\Library</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BOTW\Library\GASLibrary.h">
+      <Filter>Source\BOTW\Library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\BOTW\Library\LocomotionEnumLibrary.h">
+      <Filter>Source\BOTW\Library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\BOTW\Library\LocomotionStructLibrary.h">
+      <Filter>Source\BOTW\Library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\BOTW\Library\LogLibrary.h">
+      <Filter>Source\BOTW\Library</Filter>
+    </ClInclude>
+    <Filter Include="Source\BOTW\Manager">
+      <UniqueIdentifier>{3B7A44BE-7048-3C3E-8237-FEDA41C4C800}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\BOTW\Manager\BOTWAssetManager.cpp">
+      <Filter>Source\BOTW\Manager</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BOTW\Manager\BOTWAssetManager.h">
+      <Filter>Source\BOTW\Manager</Filter>
+    </ClInclude>
+    <Filter Include="Source\BOTW\Object">
+      <UniqueIdentifier>{42FA28A8-7B47-3F3C-943C-0AB18EBC965F}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\BOTW\Object\CarryableObject.cpp">
+      <Filter>Source\BOTW\Object</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BOTW\Object\CarryableObject.h">
+      <Filter>Source\BOTW\Object</Filter>
+    </ClInclude>
+    <Filter Include="Source\BOTW\PlayerState">
+      <UniqueIdentifier>{534899B2-54AD-3020-9F3C-380F0F6D018D}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\BOTW\PlayerState\BOTWPlayerState.cpp">
+      <Filter>Source\BOTW\PlayerState</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BOTW\PlayerState\BOTWPlayerState.h">
+      <Filter>Source\BOTW\PlayerState</Filter>
+    </ClInclude>
+    <Filter Include="Source\BOTW\Weapon">
+      <UniqueIdentifier>{2C72821E-4A25-3738-92F6-71C8B737A2CE}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\BOTW\Weapon\MeleeWeaponInstance.cpp">
+      <Filter>Source\BOTW\Weapon</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BOTW\Weapon\MeleeWeaponInstance.h">
+      <Filter>Source\BOTW\Weapon</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BOTW\Weapon\WeaponAnimationData.cpp">
+      <Filter>Source\BOTW\Weapon</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BOTW\Weapon\WeaponAnimationData.h">
+      <Filter>Source\BOTW\Weapon</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BOTW\Weapon\WeaponInstance.cpp">
+      <Filter>Source\BOTW\Weapon</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BOTW\Weapon\WeaponInstance.h">
+      <Filter>Source\BOTW\Weapon</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
